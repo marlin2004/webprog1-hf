@@ -1,0 +1,41 @@
+
+Webprogramozás 1 – Előadás Beadandó
+Készítette: Martinovic Lino (Neptun: Y8MS95)
+
+Feladatrészem leírása:
+
+A beadandó feladat során az volt a célunk, hogy egy weboldalt hozzunk létre, amely több részből áll, és bemutat különféle webes technológiákat. A feladatot ketten csináltuk, én a "Táblázat" nevű menüpontot, valamint a hozzá tartozó működési logikát készítettem el.
+
+Az általam készített rész:
+
+➤ Oldalszerkezet
+Az egész oldal HTML5 alapú, reszponzív szerkezetet használ, külön fejléc (header), menü (nav), tartalmi rész (section/article), oldalsáv (aside) és lábléc (footer) részekkel. Ezeket az elemeket minden oldal esetében egységesen alkalmaztam.
+
+➤ Táblázat (table.html)
+Ez az oldal tartalmazza a fő feladatrészemet. Egy legalább 4x4-es méretű, dinamikusan bővíthető HTML táblázatot hoztam létre. A táblázatban a felhasználó képes:
+- Új sorokat hozzáadni
+- Meglévő sorokat módosítani
+- Sorokat törölni
+
+Minden interakció JavaScript-tel történik, újratöltés nélkül. A mezők validálva vannak (például nem lehet üresen hagyni, vagy hibás típust beírni), és külön gombokat készítettem az adatok mentésére és kezelésére.
+
+➤ JavaScript logika (script.js)
+Itt található a táblázat működését vezérlő kód. DOM-műveletekkel dinamikusan generálom a táblázat tartalmát. Külön gondot fordítottam arra, hogy:
+- A kód áttekinthető és jól tagolt legyen
+- Az eseménykezelés ne legyen redundáns
+- Lehetőség legyen oszlop szerinti rendezésre és szűrésre is
+
+➤ Backend kapcsolat (AjaxApi.php)
+Készítettem egy egyszerű PHP fájlt is, amely szimulálja a szerver oldali adatfeldolgozást. A script.js egy AJAX hívással elküldi az adatokat a szervernek, így gyakorolni tudtam az aszinkron működést is.
+
+➤ Stílus (style.css)
+Az oldalaimhoz egy külön CSS fájlt írtam, amely mobilbarát, letisztult megjelenést biztosít. Flexbox-ot és grid-et is használtam a rugalmas elrendezés érdekében.
+
+Tapasztalatok:
+
+Ez a feladat remek alkalom volt arra, hogy elmélyítsem a tudásomat a JavaScript DOM-kezelés és űrlapvalidálás témakörében. Kihívást jelentett a táblázat teljesen dinamikus kezelése, de közben sokat tanultam az eseményvezérlésről és a kód újrafelhasználhatóságáról is.
+
+Összességében úgy érzem, hogy egy jól működő, logikusan felépített részt sikerült létrehoznom, ami megfelel a beadandó kiírásának.
+
+Martinovic Lino
+Y8MS95
