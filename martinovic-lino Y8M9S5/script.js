@@ -1,1 +1,0 @@
-let szoveg = 'Helló világ!';
