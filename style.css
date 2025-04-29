@@ -1,59 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .aktiv a {
-    background-color: #666;
-  }
-  
-  aside {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .tartalom {
-    padding: 20px;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    border: 1px solid #aaa;
-    padding: 8px;
-    text-align: center;
-  }
-  
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.aktiv {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section.bevezetes {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004080;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
